@@ -7,10 +7,10 @@ const MainHeader = () => {
     <header className="main__header">
       <div className="container main__header-container">
         <div className="main__header-left">
-          <h4>#100DaysOfWorkOut</h4>
-          <h1>Join The Legends Of The Fitness World</h1>
+          <h4>#sociolab</h4>
+          <h1>Gestionamos sus necesidades de información</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam excepturi similique eius optio. Dolorum, quaerat.
+            Administramos CRUD personalizados según sus necesidades.
           </p>
           <Link to="/plans" className='btn lg'>Get Started</Link>
         </div>
