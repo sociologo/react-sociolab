@@ -5,3 +5,5 @@
 https://www.sociolab.cl
 
 https://react-sociolab.vercel.app/
+
+![image](https://github.com/user-attachments/assets/a874229d-4f6e-45f8-8621-36b76b5921be)
