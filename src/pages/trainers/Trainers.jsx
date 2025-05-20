@@ -9,29 +9,32 @@ import Trainer from '../../components/Trainer'
 import './trainers.css'
 
 const Trainers = () => {
-  return (
-    <>
-    <Header title="Our Trainers" image={HeaderImage}>
-    Facilis, iusto numquam unde laboriosam expedita qui exercitationem? Dicta vero accusantium est aut molestiae fugit doloremque suscipit quod.
-    </Header>
-    <section className="trainers">
-      <div className="container trainers__container">
-        {
-          trainers.map(({id, image, name, job, socials}) => {
-            return <Trainer key={id} image={image} name={name} job={job} socials={
-              [
-                {icon: <BsInstagram/>, link: socials[0]},
-                {icon: <AiOutlineTwitter/>, link: socials[1]},
-                {icon: <FaFacebookF/>, link: socials[2]},
-                {icon: <FaLinkedinIn/>, link: socials[3]}
-              ]
-            }/>
-          })
-        }
-      </div>
-    </section>
-    </>
-  )
+   return (
+      <>
+      <Header title="Nuestros mantenedores" image={HeaderImage}>
+      Un mantenedor es un componente de software que 
+      implementa las operaciones básicas de crear, leer, actualizar 
+      y eliminar (CRUD: Create, Read, Update, Delete) registros de 
+      una entidad o tabla específica en un sistema.
+      </Header>
+      <section className="trainers">
+         <div className="container trainers__container">
+         {
+            trainers.map(({id, image, name, job, socials}) => {
+               return <Trainer key={id} image={image} name={name} job={job} socials={
+               [
+                  {icon: <BsInstagram/>, link: socials[0]},
+                  {icon: <AiOutlineTwitter/>, link: socials[1]},
+                  {icon: <FaFacebookF/>, link: socials[2]},
+                  {icon: <FaLinkedinIn/>, link: socials[3]}
+               ]
+               }/>
+            })
+         }
+         </div>
+      </section>
+      </>
+   )
 }
 
 export default Trainers

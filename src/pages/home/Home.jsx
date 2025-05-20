@@ -9,16 +9,16 @@ import Values from '../../components/Values'
 
 import './home.css'
 const Home = () => {
-  return (
-    <>
-    <MainHeader/>
-    <Programs/>
-    <Values/>
-    <FAQs/>
-    <Testimonials/>
-    <Footer/>
-    </>
-  )
+   return (
+      <>
+      <MainHeader/>
+      <Programs showTitle={true}/>
+      <Values/>
+      <FAQs/>
+      <Testimonials/>
+      {/* <Footer/> */}
+      </>
+   )
 }
 
 export default Home
