@@ -17,6 +17,11 @@
    --color-primary: hsl(var(--primary-hue), 100%, 50%);
    --color-primary-variant: hsl(var(--primary-hue), 100%, 65%);
    --color-secondary: #ffb116;
+   --color-3: #287925;
+   --color-4: #eef10f;
+   --color-5: #0d8502;
+   --color-6: #d306a7;
+   --color-7: #ee250a;
    --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
    --color-gray-200: hsl(var(--gray-hue), 26%, 75%);
    --color-gray-300: hsl(var(--gray-hue), 24%, 64%);
@@ -33,10 +38,12 @@
 /* GENERAL STYLES */
 body {
    font-family: 'Montserrat', sans-serif;
-   color: var(--color-gray-200);
-   line-height: 1.7;
+   /* color: var(--color-gray-200); */
+   color: var(--color-4);
+   line-height: 1.3;
    overflow-x: hidden;
-   background: var(--color-gray-600) ;
+   /* background: var(--color-gray-600) ; */
+   background: var(--color-3) ;
    /* url('./images/bg_texture.png'); */
 }
 
@@ -47,8 +54,9 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-   line-height: 1.2;
-   color: var(--color-gray-100);
+   line-height: 1.3;
+   /* color: var(--color-gray-100); */
+   color: var(--color-4);
 }
 
 h1 {
@@ -56,11 +64,13 @@ h1 {
 }
 
 h2 {
-   font-size: 2rem;
+   font-size: 2.5rem;
 }
 
+/* color de letras del footer */
 a {
    color: var(--color-gray-100);
+
 }
 
 img {
@@ -69,12 +79,18 @@ img {
    width: 100%;
 }
 
+/* Color de los botones tipo link */
 .btn {
-   color: var(--color-gray-100);
+   /* color: var(--color-gray-100); */
+   color: var(--color-4);   
    width: fit-content;
    margin: 0 auto;
    padding: 0.9rem 2rem;
-   background: var(--color-primary);
+   /* background: var(--color-primary); */
+   background: var(--color-7);
+
+
+
    border-radius: 1.5rem;
    transition: var(--transition);
 }
@@ -109,8 +125,15 @@ section {
    gap: 1rem;
 }
 
+
+/* Color del fondo de los iconos como el de proyectos */
 .section__head span {
-   background: var(--color-gray-500);
+   /* background: var(--color-gray-500); */
+   background: var(--color-7);
+
+
+
+
    padding: 0.8rem;
    border-radius: 1rem;
    color: var(--color-secondary);
@@ -118,7 +141,7 @@ section {
 }
 
 .card {
-   background: var(--color-gray-500);
+   background: var(--color-5);
    border: 2px solid transparent;
    text-align: center;
    padding: 3rem 2rem;
@@ -132,11 +155,20 @@ section {
    cursor: default;
 }
 
+/* Acá van las caracteristicas de los iconos dentro de cada card */
 .card span {
    width: 3rem;
    height: 3rem;
-   background: var(--color-primary);
-   color: var(--color-gray-100);
+   /* background: var(--color-primary); */
+   background: var(--color-6);
+
+
+/* color de las lineas del icono */
+   color: var(--color-gray-100); 
+
+
+
+
    font-size: 1.5rem;
    padding: 0.8rem;
    display: grid;
@@ -162,7 +194,9 @@ section {
    margin-top: 5rem;
    height: 20rem;
    overflow: hidden;
-   border-bottom: 2px solid var(--color-gray-400);
+   /* border-bottom: 2px solid var(--color-gray-400); */
+   border-bottom: 2px solid var( --color-6);
+
 }
 
 .header__container {

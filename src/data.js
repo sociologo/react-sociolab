@@ -1,69 +1,117 @@
 import {SiOpenaigym} from 'react-icons/si'
 
-
-
 export const links = [
     {
         name: "Home",
         path: '/'
     },
     {
-        name: "About",
+        name: "Mi currículum",
         path: '/about'
     },
     {
-        name: "Gallery",
+        name: "Galería",
         path: '/gallery'
     },
     {
-        name: "Plans",
+        name: "Planes",
         path: '/plans'
     },
     {
-        name: "Trainers",
+        name: "Nuestros mantenedores",
         path: '/trainers'
     },
     {
-        name: "Contact",
+        name: "Contacto",
         path: '/contact'
     }
 ]
 
-
-
-
-
-
-
 export const programs = [
-    {
-        id: 1,
-        icon: <SiOpenaigym/>,
-        title: "Program One",
-        info: "This is the day that the lord has made. We will rejoice!",
-        path: "/programs/111"
-    },
-    {
-        id: 2,
-        icon: <SiOpenaigym/>,
-        title: "Program Two",
-        info: "This is the day that the lord has made. We will rejoice!",
-        path: "/programs/222"
-    },
-    {
-        id: 3,
-        icon: <SiOpenaigym/>,
-        title: "Program Three",
-        info: "This is the day that the lord has made. We will rejoice!",
-        path: "/programs/333"
-    },
-    {
-        id: 4,
-        icon: <SiOpenaigym/>,
-        title: "Program Four",
-        info: "This is the day that the lord has made. We will rejoice!",
-        path: "/programs/444"
-    }
+   {
+      id: 1,
+      icon: <SiOpenaigym/>,
+      title: "1. Predictor de Migraciones Internas por Inteligencia Artificial",
+      info: "Predice flujos de migración interna basándose en datos censales, variables económicas y sociales en tiempo real.",
+      path: "/programs/111"
+   },
+   {
+      id: 2,
+      icon: <SiOpenaigym/>,
+      title: "2. Sistema de Vigilancia Epidemiológica Predictiva",
+      info: "Detecta patrones anómalos en reportes médicos y redes sociales para predecir brotes.",
+      path: "/programs/222"
+   },
+   {
+      id: 3,
+      icon: <SiOpenaigym/>,
+      title: "3. Simulador Demográfico de Alto Realismo",
+      info: "Simula poblaciones futuras usando tasas de natalidad, mortalidad, migración y políticas públicas.",
+      path: "/programs/333"
+   },
+   {
+      id: 4,
+      icon: <SiOpenaigym/>,
+      title: "4. Mapeador de Desigualdad Social Automatizado",
+      info: "Produce mapas interactivos de desigualdad combinando variables censales, educación, salud, etc.",
+      path: "/programs/444"
+   },
+   {
+      id: 5,
+      icon: <SiOpenaigym/>,
+      title: "5. Análisis Predictivo de Comportamientos Electorales",
+      info: "Predice comportamientos de voto con base en factores demográficos, históricos y redes sociales.",
+      path: "/programs/444"
+   },
+   {
+      id: 6,
+      icon: <SiOpenaigym/>,
+      title: "6. Calculadora de Riesgo Epidemiológico Individualizado",
+      info: "Calcula el riesgo de una persona o comunidad a ciertas enfermedades con base en variables sociales.",
+      path: "/programs/444"
+   },
+   {
+      id: 7,
+      icon: <SiOpenaigym/>,
+      title: "7. Sistema de Priorización de Políticas Públicas por ROI Social",
+      info: "Simula diferentes políticas públicas y estima su impacto económico y social.",
+      path: "/programs/444"
+   },
+   {
+      id: 8,
+      icon: <SiOpenaigym/>,
+      title: "8. Plataforma de Detección de Clústeres de Desigualdad",
+      info: "Detecta clústeres espaciales de pobreza, violencia o enfermedades.",
+      path: "/programs/444"
+   },
+   {
+      id: 9,
+      icon: <SiOpenaigym/>,
+      title: "8. 🏥 Optimizador de Camas Hospitalarias Regional",
+      info: "Usa datos históricos de ocupación de camas críticas (DEIS) y modelos SIR para estimar demanda futura, comuna por comuna.",
+      path: "/programs/444"
+   },
+   {
+      id: 10,
+      icon: <SiOpenaigym/>,
+      title: "5. 📉 Evaluador de Impacto de la PGU en Pobreza en Adultos Mayores",
+      info: "Usa la Encuesta CASEN antes y después de la implementación de la PGU para evaluar su efecto en pobreza y desigualdad entre mayores de 65.",
+      path: "/programs/444"
+   },
+   {
+      id: 11,
+      icon: <SiOpenaigym/>,
+      title: "2. Mapeador de Segregación Urbana en Santiago",
+      info: "Procesa datos geográficos del MINVU y del Censo para visualizar segregación residencial por ingresos, nivel educativo y etnia (pueblos originarios).",
+      path: "/programs/444"
+   },
+   {
+      id: 12,
+      icon: <SiOpenaigym/>,
+      title: "4. 🧒 Modelo Predictivo de Abandono Escolar en Chile",
+      info: "Utiliza datos del MINEDUC, JUNAEB y SIMCE para identificar estudiantes con mayor riesgo de deserción escolar.",
+      path: "/programs/444"
+   }
 ]
 
 

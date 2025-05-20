@@ -1,9 +1,12 @@
+
+
+
 .main__header {
    width: 100vw;
    height: calc(100vh - 3rem);
    display: grid;
    place-items: center;
-   margin-top: 3rem;
+   margin-top: 1rem;
 }
 
 .main__header-container {
@@ -27,7 +30,7 @@
 
 .main__header-left p {
    margin: 1rem 0 3.5rem;
-   font-size: 1.1rem;
+   font-size: 1.4rem;
 }
 
 .main__header-right {
@@ -52,14 +55,14 @@
 
 /* ===================== PROGRAMS ===================== */
 .programs {
-   margin-top: 4rem;
+   margin-top: -4rem;
 }
 
 .programs__wrapper {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
    gap: 3rem;
-   margin-top: 4rem;
+   margin-top: 3rem;
 }
 
 .programs__program a {
