@@ -10,7 +10,7 @@ https://react-sociolab.vercel.app/
 
 npm start
 
-Perfecto. Vamos a desglosar en profundidad el objetivo general del Motor Predictivo de Pobreza Multidimensional Territorial, considerando tanto su relevancia sociológica como su diseño técnico, político y comercial.
+# 🧠 Motor Predictivo de Pobreza Multidimensional Territorial
 
 🎯 Objetivo General (versión extendida y detallada)
 “Desarrollar un sistema predictivo automatizado que permita estimar, monitorear y mapear la pobreza multidimensional en unidades territoriales pequeñas (barrios, comunas, zonas censales) combinando fuentes de datos socioeconómicos, geoespaciales y administrativos mediante técnicas de machine learning, con el fin de mejorar la focalización de políticas públicas, optimizar la asignación de recursos sociales y facilitar intervenciones tempranas en territorios vulnerables.”
